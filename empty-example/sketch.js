@@ -16,4 +16,5 @@ function mouseClicked() {
   } else {
     value = random(0, 250);
   }
+  console.log("Ellipseee");
 }
