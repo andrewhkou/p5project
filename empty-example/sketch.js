@@ -39,6 +39,10 @@ function setup() {
   text('Selection Sort', centerX, centerY/3);
 }
 
+function preload() {
+  
+}
+
 var numSorted;
 var nextMinimum; 
 var nums = [];
@@ -448,7 +452,6 @@ function findMinimumIndex(minIndex) {
   }
   return index;
 }
-
 // function alreadyFukinExistsInTheFukinArray(num) {
 //   var k;
 //   for (k = 0; k < 6; k++) {
