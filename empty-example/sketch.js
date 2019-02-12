@@ -272,9 +272,11 @@ function draw() {
   textAlign(CENTER);
   textSize(centerY/16);
   if (numSorted == nextMinimum) {
-    text("Already in correct position!", centerX, centerY*1.26+side/3);
+    textSize(centerY/20);
+    text("Already in correct position! Click to continue", centerX, centerY*1.26+side/3);
   }
   else {
+    textSize(centerY/16);
     text("Swap with first unsorted number!", centerX, centerY*1.26 + side/3);
   }
   //text("Swap with first unsorted number!", centerX, centerY*1.41+side/3);
